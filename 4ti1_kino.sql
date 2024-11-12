@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Lis 06, 2024 at 11:35 AM
+-- Generation Time: Lis 12, 2024 at 01:57 PM
 -- Wersja serwera: 10.4.32-MariaDB
 -- Wersja PHP: 8.0.30
 
@@ -66,7 +66,7 @@ CREATE TABLE `filmy` (
 --
 
 INSERT INTO `filmy` (`ID`, `tytul`, `rezyser`, `czas_trwania`) VALUES
-(1, 'Minionki 2', 'Krzysztof Gosz', '02:20:00'),
+(1, 'Riddle me this', 'Krzysztof Gosz', '02:20:00'),
 (2, 'Super film', 'Jamal Makumba', '01:30:30'),
 (3, 'Oppenheimer', 'zapomnialem', '03:00:45'),
 (4, 'Pianista', 'Jarek Pasieka', '02:17:47'),
@@ -282,7 +282,7 @@ ALTER TABLE `bilety`
 -- AUTO_INCREMENT for table `filmy`
 --
 ALTER TABLE `filmy`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `filmy_rodzaj`
